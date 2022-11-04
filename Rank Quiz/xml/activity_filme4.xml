@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FilmeActivity4">
+
+    <TextView
+        android:textSize="25dp"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Quiz Filmes Exoticos"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Descubre o filme"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp"
+        android:textSize="25dp" />
+
+    <ImageView
+        android:id="@+id/imageViewQ4"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_marginTop="1dp"
+        android:src="@drawable/filme4"/>
+
+    <TextView
+        android:textSize="25dp"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Quiz Filmes Exoticos"
+        />
+
+
+    <EditText
+        android:id="@+id/editTextQ4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="Digite aqui"
+        android:inputType="text"/>
+
+    <Button
+        android:id="@+id/buttonQ4"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Responder" />
+</LinearLayout>
